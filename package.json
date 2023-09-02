@@ -1,0 +1,25 @@
+{
+  "name": "readme-jokes",
+  "version": "1.0.0",
+  "description": "README Jokes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Charmve/readme-jokes.git"
+  },
+  "author": "Charmve",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Charmve/readme-jokes/issues"
+  },
+  "homepage": "https://github.com/Charmve/readme-jokes#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.2"
+  }
+}
