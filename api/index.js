@@ -74,7 +74,7 @@ module.exports = async (req, res) => {
       else kafka = kafkas[index];
     }
 
-    let imgTag = '<img src="https://github.com/Charmve/readme-jokes/blob/main/src/img/kafka-profile.png?raw=true" align="right" width="52" style="margin-right: 30px; margin-top: 12px;"/>';
+    let imgTag = '<img src="https://github.com/Charmve/readme-jokes/blob/main/src/img/kafka-profile.png?raw=true" align="right" width="68" style="margin-right: 30px; margin-top: 12px;"/>';
     kafka = kafka.replace("</code>", "</code>" + imgTag);
 
     renderJoke = quoteCard(
