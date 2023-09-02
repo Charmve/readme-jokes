@@ -15,21 +15,21 @@
 
 ### Usage
 
-Endpoint URL: `https://readme-jokes.vercel.app/api`
+Endpoint URL: `https://readme-jokes-rouge.vercel.app/api`
 
 Embed one of these in your README:
 
 ```md
 <!-- Markdown -->
 
-![Jokes Card](https://readme-jokes.vercel.app/api)
+![Jokes Card](https://readme-jokes-rouge.vercel.app/api)
 ```
 
 <p align="center">or</p>
 
 ```html
 <!-- HTML -->
-<img src="https://readme-jokes.vercel.app/api" alt="Jokes Card" />
+<img src="https://readme-jokes-rouge.vercel.app/api" alt="Jokes Card" />
 ```
 
 ### Customization Guide
@@ -38,21 +38,21 @@ Customize using `?` after /api in the https link, example here with no borders u
 <br/>
 
 Markdown method:
-`![Jokes Card](https://readme-jokes.vercel.app/api?hideBorder)`
+`![Jokes Card](https://readme-jokes-rouge.vercel.app/api?hideBorder)`
 <br/>
 
 Image method:
-`<img src="https://readme-jokes.vercel.app/api?hideBorder" alt="Jokes Card" />`
+`<img src="https://readme-jokes-rouge.vercel.app/api?hideBorder" alt="Jokes Card" />`
 <br/>
 
 Both methods will produce the following jokes card without border:
-![Jokes Card](https://readme-jokes.vercel.app/api?hideBorder)
+![Jokes Card](https://readme-jokes-rouge.vercel.app/api?hideBorder)
 <br/>
 To use multiple parameters use '`&`' after the first parameter, e.g. `?hideBorder&theme=cobalt&qColor=%23944bcc&aColor=%23bbdb51`
 
 will produce a jokes card without border, with cobalt theme, answer color #944bcc and question color #bbdb51 like so:
 <br/>
-![Jokes Card](https://readme-jokes.vercel.app/api?hideBorder&theme=cobalt&qColor=%23944bcc&aColor=%23bbdb51)
+![Jokes Card](https://readme-jokes-rouge.vercel.app/api?hideBorder&theme=cobalt&qColor=%23944bcc&aColor=%23bbdb51)
 
 #### Parameters Available
 
@@ -77,187 +77,187 @@ will produce a jokes card without border, with cobalt theme, answer color #944bc
  </tr>
  <tr>
  <td>default</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api"></td>
  </tr>
 
  <tr>
  <td>gradientBlue</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=gradientBlue"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=gradientBlue"></td>
  </tr>
 
  <tr>
  <td>solidBlue</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=solidBlue"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=solidBlue"></td>
  </tr>
 
  <tr>
  <td>halloween</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=halloween"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=halloween"></td>
  </tr>
 
  <tr>
  <td>watermelon</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=watermelon"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=watermelon"></td>
  </tr>
 
  <tr>
  <td>pinkish</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=pinkish"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=pinkish"></td>
  </tr>
 
  <tr>
  <td>daySky</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=daySky"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=daySky"></td>
  </tr>
 
  <tr>
  <td>radical</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=radical"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=radical"></td>
  </tr>
 
  <tr>
  <td>merko</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=merko"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=merko"></td>
  </tr>
 
  <tr>
  <td>gruvbox</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=gruvbox"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=gruvbox"></td>
  </tr>
 
  <tr>
  <td>tokyonight</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=tokyonight"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=tokyonight"></td>
  </tr>
 
  <tr>
  <td>onedark</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=onedark"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=onedark"></td>
  </tr>
 
  <tr>
  <td>cobalt</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=cobalt"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=cobalt"></td>
  </tr>
 
  <tr>
  <td>synthwave</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=synthwave"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=synthwave"></td>
  </tr>
 
  <tr>
  <td>dracula</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=dracula"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=dracula"></td>
  </tr>
 
  <tr>
  <td>prussian</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=prussian"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=prussian"></td>
  </tr>
 
  <tr>
  <td>monokai</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=monokai"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=monokai"></td>
  </tr>
 
  <tr>
  <td>vue</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=vue"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=vue"></td>
  </tr>
 
  <tr>
  <td>vue-dark</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=vue-dark"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=vue-dark"></td>
  </tr>
 
  <tr>
  <td>nightowl</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=nightowl"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=nightowl"></td>
  </tr>
 
  <tr>
  <td>buefy</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=buefy"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=buefy"></td>
  </tr>
 
  <tr>
  <td>blue-green</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=blue-green"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=blue-green"></td>
  </tr>
 
  <tr>
  <td>algolia</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=algolia"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=algolia"></td>
  </tr>
 
  <tr>
  <td>darcula</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=darcula"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=darcula"></td>
  </tr>
 
  <tr>
  <td>bear</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=bear"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=bear"></td>
  </tr>
 
  <tr>
  <td>solarized-dark</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=solarized-dark"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=solarized-dark"></td>
  </tr>
 
  <tr>
  <td>solarized-light</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=solarized-light"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=solarized-light"></td>
  </tr>
 
  <tr>
  <td>gotham</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=gotham"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=gotham"></td>
  </tr>
 
  <tr>
  <td>material-palenight</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=material-palenight"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=material-palenight"></td>
  </tr>
 
  <tr>
  <td>graywhite</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=graywhite"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=graywhite"></td>
  </tr>
 
  <tr>
  <td>ayu-mirage</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=ayu-mirage"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=ayu-mirage"></td>
  </tr>
 
  <tr>
  <td>calm</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=calm"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=calm"></td>
  </tr>
 
  <tr>
  <td>flag-india</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=flag-india"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=flag-india"></td>
  </tr>
 
  <tr>
  <td>omni</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=omni"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=omni"></td>
  </tr>
 
  <tr>
  <td>react</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=react"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=react"></td>
  </tr>
 
  <tr>
  <td>blueberry</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=blueberry"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=blueberry"></td>
  </tr>
 
  <tr>
  <td>random</td>
- <td style="padding-top:4px"><img src = "https://readme-jokes.vercel.app/api?theme=random"></td>
+ <td style="padding-top:4px"><img src = "https://readme-jokes-rouge.vercel.app/api?theme=random"></td>
  </tr>
 
  </table>
@@ -269,15 +269,15 @@ will produce a jokes card without border, with cobalt theme, answer color #944bc
 _Note: Use URL-encoded `#` for color values i.e. `%23`<br/>_
 _eg: `#FFF` will be `%23FFF`<br/>_
 _Note: You can also use the URL parameters to customize the themes.<br/>_
-_URL eg: https://readme-jokes.vercel.app/api?bgColor=%23073b4c&textColor=%2306d6a0&aColor=%2306d6a0&borderColor=%2306d6a0_
+_URL eg: https://readme-jokes-rouge.vercel.app/api?bgColor=%23073b4c&textColor=%2306d6a0&aColor=%2306d6a0&borderColor=%2306d6a0_
 
 ### Demo
 
-![Jokes Card](https://readme-jokes.vercel.app/api)
+![Jokes Card](https://readme-jokes-rouge.vercel.app/api)
 
-![Jokes Card](https://readme-jokes.vercel.app/api?bgColor=%23073b4c&textColor=%2306d6a0&aColor=%2306d6a0&borderColor=%2306d6a0)
+![Jokes Card](https://readme-jokes-rouge.vercel.app/api?bgColor=%23073b4c&textColor=%2306d6a0&aColor=%2306d6a0&borderColor=%2306d6a0)
 
-![Jokes Card](https://readme-jokes.vercel.app/api?bgColor=%23212529&textColor=%23ffddd2&qColor=%23f94144&aColor=%2390be6d&borderColor=%23f9c74f&codeColor=%23f9c74f)
+![Jokes Card](https://readme-jokes-rouge.vercel.app/api?bgColor=%23212529&textColor=%23ffddd2&qColor=%23f94144&aColor=%2390be6d&borderColor=%23f9c74f&codeColor=%23f9c74f)
 
 ### Known Issues
 
